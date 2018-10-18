@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` FUNCTION `GET_OTHERS_P`(`P_PERIOD` SMALLINT(5), `P_CLASS` SMALLINT(5), `P_GROUP` SMALLINT(5), `P_ROLE` SMALLINT(5)) RETURNS decimal(6,2)
 BEGIN
-	-- Function GEST_OTROS_P that calculates the results of the members of the group. --
+	-- Function GET_OTHERS_P that calculates the results of the members of the group. --
 
 	-- Declare variable --
 	declare RESULT DECIMAL(6,2);

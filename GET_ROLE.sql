@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` FUNCTION `GET_ROLE`(`P_ROLE` VARCHAR(45)) RETURNS int(2)
 BEGIN
-	-- GET_ROLE function that returns the role of a record --
+	-- GET_ROLE function that returns the role of a record. --
 
 	-- Declare variable --
 	DECLARE ROLE INT(2);

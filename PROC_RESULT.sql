@@ -1,6 +1,6 @@
 CREATE DEFINER=`root`@`localhost` PROCEDURE `PROC_RESULT`()
 BEGIN
--- Stored procedure PROC_RESULTED that includes all the calculations of the solution. --
+-- Stored procedure PROC_RESULT that includes all the calculations of the solution. --
 
 -- Declare variables --
 DECLARE V_CLASS SMALLINT(5) DEFAULT 0;
